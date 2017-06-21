@@ -1,0 +1,16 @@
+hash: 50bb373332fea55fc8787365ce2b792164770a5c1a0fcf955b59d35ad7149bf6
+updated: 2017-06-20T18:03:25.856239345+09:00
+imports:
+- name: github.com/BurntSushi/toml
+  version: b26d9c308763d68093482582cea63d69be07a0f0
+- name: github.com/go-redis/redis
+  version: 663bb76bcc3763c41877b63671003705a47289c5
+  subpackages:
+  - internal
+  - internal/consistenthash
+  - internal/hashtag
+  - internal/pool
+  - internal/proto
+- name: github.com/sirupsen/logrus
+  version: 202f25545ea4cf9b191ff7f846df5d87c9382c2b
+testImports: []
